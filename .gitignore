@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.logs
+.env
+node_modules/
+*.mp4
+*.zip
+profiles/
+bot_profile/
+chrome_profile/
+
