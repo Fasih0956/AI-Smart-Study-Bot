@@ -1,0 +1,48 @@
+{
+  "student": {
+    "name": "",
+    "roll_no": "",
+    "urdu_names": [""]
+  },
+  "global_settings": {
+    "join_delay_minutes": 2,
+    "leave_tolerance_minutes": 5,
+    "reconnect_attempts": 3,
+    "reconnect_delay_seconds": 30,
+    "browser_profile": "profiles/bot_profile",
+    "screenshot_on_error": true
+  },
+  "telegram": {
+    "enabled": true,
+    "bot_token": "",
+    "chat_id": ""
+  },
+  "google_account": {
+    "email": "", 
+    "password": ""
+  },
+  "classes": [
+    {
+      "day": "Monday",    "time": "08:00", "duration": 160, "subject": "DBS Lab",  "platform": "meet", "link": "" },
+    { "day": "Monday",    "time": "11:40", "duration": 50,  "subject": "PST",      "platform": "meet", "link": "" },
+    { "day": "Monday",    "time": "12:35", "duration": 50,  "subject": "SDA",      "platform": "meet", "link": "" },
+    { "day": "Monday",    "time": "13:30", "duration": 50,  "subject": "PROB",     "platform": "zoom", "link": "" },
+    { "day": "Tuesday",   "time": "08:00", "duration": 50,  "subject": "PST",      "platform": "meet", "link": "" },
+    { "day": "Tuesday",   "time": "08:55", "duration": 50,  "subject": "PROB",     "platform": "zoom", "link": "" },
+    { "day": "Tuesday",   "time": "10:45", "duration": 50,  "subject": "OS",       "platform": "meet", "link": "" },
+    { "day": "Tuesday",   "time": "11:40", "duration": 50,  "subject": "SDA",      "platform": "meet", "link": "" },
+    { "day": "Tuesday",   "time": "13:30", "duration": 160, "subject": "OS Lab",   "platform": "meet", "link": "" },
+    { "day": "Wednesday", "time": "08:00", "duration": 50,  "subject": "DBS",      "platform": "meet", "link": "" },
+    { "day": "Wednesday", "time": "08:55", "duration": 50,  "subject": "OS",       "platform": "meet", "link": "" },
+    { "day": "Wednesday", "time": "09:50", "duration": 50,  "subject": "PROB",     "platform": "zoom", "link": "" },
+    { "day": "Wednesday", "time": "10:45", "duration": 50,  "subject": "AI",       "platform": "meet", "link": "" },
+    { "day": "Wednesday", "time": "11:40", "duration": 50,  "subject": "DBS",      "platform": "meet", "link": "" },
+    { "day": "Wednesday", "time": "13:30", "duration": 160, "subject": "AI Lab",   "platform": "meet", "link": "" },
+    { "day": "Friday",    "time": "08:00", "duration": 50,  "subject": "AI",       "platform": "meet", "link": "" },
+    { "day": "Friday",    "time": "08:55", "duration": 50,  "subject": "SDA",      "platform": "meet", "link": "" },
+    { "day": "Friday",    "time": "09:50", "duration": 50,  "subject": "OS",       "platform": "meet", "link": "" },
+    { "day": "Friday",    "time": "11:40", "duration": 50,  "subject": "DBS",      "platform": "meet", "link": "" },
+    { "day": "Friday",    "time": "13:30", "duration": 50,  "subject": "AI",       "platform": "meet", "link": "" },
+    { "day": "Saturday",  "time": "12:33", "duration": 60, "subject": "TEST",     "platform": "meet", "link": "", "_test": true }
+  ]
+}
